@@ -15,7 +15,7 @@ myLearning  App is a platform designed to allow users to post and share useful r
 - **Keyword/Filter Search**: Easily search for posts using keywords and filters to find relevant resources quickly.
 - **Gamification**: Users can like and share posts. Points are awarded for these activities, and top contributors are featured on the leaderboard.
 - **User Profiles**: Each user has a profile displaying their posts, likes, and rank on the leaderboard.
-- **Communities: There are bustling communities that are always sharing innovative findings, ideas, and solutions.
+- **Communities**: There are bustling communities that are always sharing innovative findings, ideas, and solutions.
 
 ## Tech Stack
 
