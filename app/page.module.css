@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.column {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.columnleft {
+    flex: 4;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.columnmid {
+    flex: 10;
+    background-color: #ffe4e1;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.columnright {
+    flex: 4;
+    background-color: #e6e6fa;
+    color: #333;
+}
+
+.rounded-box {
+    background-color: #ffffff;
+    width: 550px;
+    height: 210px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    background-color: #d8d8d8;
+    width: 75px;
+    height: 75px;
+    margin: 2.5px;
+    border-radius: 10px;
+}
+
+.profile2 {
+    width: 75px;
+    height: 75px;
+    margin: 2.5px;
+    border-radius: 10px;
+}
+
+.text-box {
+    background-color: #d8d8d8;
+    width: 405px;
+    height: 130px;
+    margin: 2.5px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #aaaaaa;
+    width: 60px;
+    height: 45px;
+    margin: 2.5px;
+    margin-left: 40px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.button1 {
+    background-color: #aaaaaa;
+    width: 130px;
+    height: 45px;
+    margin: 2.5px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+.button2 {
+    background-color: #aaaaaa;
+    width: 60px;
+    height: 45px;
+    margin: 2.5px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.column h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.column p{
+    font-size: 16px;
+    line-height: 1.5;
+}

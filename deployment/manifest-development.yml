@@ -1,0 +1,19 @@
+applications:
+  - name: ctrl-alt-defeat-ui-development
+    routes:
+      - route: ${name}.us-east-1.np.paas.lmig.com
+    buildpack: nodejs_current
+    instances: 1
+    memory: 512M
+    disk_quota: 2G
+    timeout: 180
+    # Please review the guidance in the link to learn more and to configure health-check
+    # https://libertymutual.atlassian.net/wiki/spaces/STAC/pages/500269466/Blue-green+Health+Check+Endpoint.
+    health-check-type: http
+    health-check-http-endpoint: /health
+    services:
+      - everyday-curfew
+    env:
+      APP_ENV: ${forge.deployment.key}
+    blue-green:
+      health-check-endpoint: /health

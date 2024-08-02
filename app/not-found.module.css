@@ -1,0 +1,33 @@
+.imageColumn {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-top: 5vh;
+}
+
+.imageColumn img {
+  width: 60%;
+  height: auto;
+}
+
+.textColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textColumn h2 {
+  text-align: center;
+}
+
+.pageNotFound img {
+  margin: 0 auto;
+  margin-top: 10vh;
+  padding: 20px;
+}
+
+.pageNotFound .lmig-Button.lmig-Button--dynamicWidth {
+  margin: 0 auto;
+  padding: 20px;
+}

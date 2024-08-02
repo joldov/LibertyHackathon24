@@ -1,0 +1,7 @@
+---
+gate_policy: Enterprise Default
+enable_analysis_cli: false
+
+exclude_paths:
+  - "bamboo-specs/**"
+  - "node_modules/**"

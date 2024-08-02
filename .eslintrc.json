@@ -1,0 +1,48 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": ["jest"],
+  "rules": {
+    "jsx-a11y/label-has-associated-control": ["error", {
+      "required": {
+        "some": ["nesting", "id"]
+      }
+    }],
+    "jsx-a11y/label-has-for": ["error", {
+      "required": {
+        "some": ["nesting", "id"]
+      }
+    }],
+    // Importing devDependencies is valid
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    // Ignoring internal test-utils due to Jest module resolution
+    "import/no-unresolved": ["error", { "ignore": ["test-utils"] }],
+    // Turn off LF and CRLF check due to EOL config in .gitattributes
+    "linebreak-style": "off",
+    "import/no-import-module-exports": "off",
+    "react/function-component-definition": "off",
+    "default-param-last": "off",
+
+    // No Longer Required
+    "react/react-in-jsx-scope": "off",
+
+    // Ergonomic
+    "react/jsx-curly-brace-presence": "off",
+    "object-curly-newline": "off",
+    "react/prop-types": "off",
+    "react/jsx-one-expression-per-line": "off",
+
+    // Next Specific
+    "import/prefer-default-export": "off"
+  }
+}
