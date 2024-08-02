@@ -108,10 +108,6 @@ This UI comes packaged with scripts that support unit and feature testing. In or
 
 Code will be built and run in production with the `build` and `start` scripts. To simulate a run in a production environment, these scripts should be used.
 
-### Deploying Your Application
-
-The easiest way to deploy your application is documented on the [Architecture Guide](#).
-
 ### Finding the Deployed Application through CloudForge
 
 Inside the CloudForge portals manage tab, select the application's organization and environment. You should see your deployed application and its URL listed.
@@ -130,29 +126,6 @@ To run the security audit locally:
 1. Make sure you have a `package-lock.json` file.
 2. A `package-lock.json` file can be generated using the following command: `npm install --package-lock-only`
 3. Run the `check-audit` script found in your `package.json`.
-
-## Contributing
-
-1. **Fork the Repository**
-2. **Create a Feature Branch**
-
-```sh
-git checkout -b feature/new-feature
-```
-
-3. **Commit Your Changes**
-
-```sh
-git commit -m 'Add some new feature'
-```
-
-4. **Push to the Branch**
-
-```sh
-git push origin feature/new-feature
-```
-
-5. **Open a Pull Request**
 
 ## License
 
