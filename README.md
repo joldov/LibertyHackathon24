@@ -1,5 +1,5 @@
 
-# 🗽📚 myLiberty App
+# 🗽📚 myLearning App
 
 ## Overview
 
@@ -157,26 +157,4 @@ git push origin feature/new-feature
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Sarah Comlan: Worked on frontend and combined and formatted components together
-- Ranyeli Frias: Worked on the profile card, skills, and communities view on the left column.
-- Jessica Oldov: Worked on the resources page and ensured that the search bar allowed you to filter through the post
-- Pablo Sandoval Rivas: Worked on backend and made sure that all our our systems worked together.
-- Karolena Zhou: Worked on the skeleton of the main page and made sure that the post function was working
-  
-- Icons by [Font Awesome](https://fontawesome.com/)
-- Images by [Unsplash](https://unsplash.com/)
-
-
-
-## Contact
-
-For any questions or suggestions, please open an issue or contact our team at:
-- sarah.comlan@libertymutual.com
-- karolena.zhou@libertymutual.com
-- pablo.sandovalrivas@libertymutual.com
-- jessica.oldov@libertymutual.com
-- ranyeli.frias@libertymutual.com
   
