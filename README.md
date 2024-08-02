@@ -6,7 +6,8 @@
 myLearning  App is a platform designed to allow users to post and share useful resources. It helps to prevent valuable information from getting lost in an abyss by enabling keyword and filter-based searches. Additionally, the app features a ✨gamified experience✨ where users can like and share posts, with the most active contributors appearing on the leaderboard!
 ## Figma Design
 
-![Screenshot 2024-07-31 184659](https://github.com/user-attachments/assets/01ee2b0e-9310-4188-8ab9-00de4372d95e)
+![text](picc2.png)
+![text2](picc1.png)
 
 ## Features
 
